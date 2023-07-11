@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:black;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 300px;
+    cursor: pointer;
+    height:100px;
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+span{
+    color: yellow;
+    
+}
+
+.detel p{
+    color: yellow;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.detel a:hover{
+    background-color: red;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.shape{
+    left:50%;
+    bottom:0px;
+}
+.myImg{
+    left:48%;
+    bottom:5px;
+    border-radius: 50%;
+}
+.about{
+    width:100%;
+    position:relative;
+
+}
+.col1{
+    width:40%;
+    position: relative;
+    float:left;
+    left: 50px;
+}
+.col1 img{
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left:70px;
+}
+
+.col2{
+    width:60%;
+    position: relative;
+    float:right;
+    margin-right: 0px;
+    
+}
+.col2 h2{
+    text-align: center;
+    color:red;
+    font-size: 50px;
+    margin-top: 120px;
+}
+.col2 p{
+    color:yellow;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Skills{
+    width:100%;
+    height:10%;
+    text-align: center; 
+    font-size: 50px;
+    background-color:cornflowerblue;
+    color:red;
+    Border:2px solid yellow;
+    background-color: yellow;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+.Skills:hover{
+    color:black;
+    background-color: white;
+}
+.Languages{
+    width:100%;
+    height:35%;
+    text-align: center;
+    border: 2px solid yellow;
+    
+}
+.languages, .C{
+    width:50%;
+    height:100%;
+    text-align: center;
+    float: left;
+    border:0px solid yellow;
+    color:red;
+    
+}
+
+.languages, .Java{
+    width:50%;
+    height:100%;
+    text-align: center;
+    float:left;
+    border:0px solid yellow;
+    color:red;
+
+}
+.Front-end{
+    width:100%;
+    height:35%;
+    text-align: center;
+    border: 2px solid yellow;
+}
+
+.Front-end .HTML{
+    width:33.33%;
+    height:100%;
+    text-align: center;
+    border:0px solid yellow;
+    float: left;
+    color:red;
+}
+.Front-end .CSS{
+    width:33.33%;
+    height:100%;
+    text-align: center;
+    border:0px solid yellow;
+    float: left;
+    color:red;
+}
+.Front-end .JS{
+    width:33.33%;
+    height:100%;
+    text-align: center;
+    border:0px solid yellow;
+    float: left;
+    color:red;
+}
+
+
+.Contact{
+    width:100%;
+    text-align: left;
+    color:white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+.social{
+    margin-left: 8%;
+    margin-bottom: 100px;
+    
+}
+
+.social a{
+    font-size: 30px;
+    color: blue;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.social a:hover{
+    color: blue;
+    color:white;
+}
